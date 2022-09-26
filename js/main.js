@@ -1,6 +1,11 @@
 let energiaBatman = 450;
 let energiaRobin = 400;
 
+let jugadorBatman = prompt("Nombre del jugador de Batman");
+let jugadorRobin = prompt("Nombre del jugador de Robin");
+
+alert ("la batalla ha comenzado")
+
 console.log(energiaBatman)
 console.log(energiaRobin)
 
@@ -32,8 +37,8 @@ console.log("Energia Robin " + energiaRobin)
 if(energiaBatman===energiaRobin){
     console.log=("Ambos perdieron")
 } else if(energiaBatman>0){
-    console.log("Batman es el ganador")
+    console.log( jugadorBatman +" es el ganador")
 
 } else {
-    console.log("Increiblemente ha ganado Robin")
+    console.log( jugadorRobin + " ha resultado ganador")
 }
