@@ -1,6 +1,8 @@
 let energiaBatman = 450;
 let energiaRobin = 400;
 
+alert("Bienvenido a la batalla de Batman vs Robin");
+
 let jugadorBatman = prompt("Nombre del jugador de Batman");
 let jugadorRobin = prompt("Nombre del jugador de Robin");
 
