@@ -48,17 +48,15 @@ function conocerPersonaje(){
 
             const opcionScorpion = [
                 {
-                  Franquicia: 'Mortal Kombat',
-                  TipoGuerrero: 'Ninja / Guerrero',
-                  Dificultad: 'Intermedia'
+                Franquicia: 'Mortal Kombat',
+                TipoGuerrero: 'Ninja / Guerrero',
+                Dificultad: 'Intermedia'
                 },
 
-              ];
+            ];
 
-              alert("Scorpion es un guerrero ninja con habilidades para atacar a distancia, su dificultad es intermedia")
-              
-
-
+            alert("Scorpion es un guerrero ninja con habilidades para atacar a distancia, su dificultad es intermedia")
+            
             break;
 
         case "2":
@@ -71,10 +69,10 @@ function conocerPersonaje(){
                     Dificultad: "Principiante"
                 },
 
-              ];
+            ];
 
-              alert("Donatello es un personaje de las tortugas ninja, su facilidad para el manejo es principiante y su tipo de guerrero es Ninja");
-              
+            alert("Donatello es un personaje de las tortugas ninja, su facilidad para el manejo es principiante y su tipo de guerrero es Ninja");
+            
 
 
             break;
@@ -88,7 +86,7 @@ function conocerPersonaje(){
                     TipoGuerrero: "Alienigena",
                     Dificultad: "Experto"
                 },
-              ];
+            ];
             
             alert("Depredador es un alienigena cazador, su nivel de dificultad es de Experto")
 
