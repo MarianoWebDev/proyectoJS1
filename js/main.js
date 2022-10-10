@@ -3,6 +3,10 @@ let energiaRobin = 400;
 
 const personajes = ["batman", "robin", "donatello", "scorpion", "depredador"];
 
+let buscarPersonaje = personajes.includes("batman");
+
+console.log("batman");
+
 const BATMAN = {
         nombre: "Batman",
         golpeEspecial: 150,
